@@ -7,3 +7,6 @@ dimension|loss
 450_100   0.25630
 450_196   0.25253
 780_729   0.24790
+
+Test with 80% heterogenous fashion mnist dataset
+LINK: https://docs.google.com/spreadsheets/d/1r7JDsNFJx4lq13Fy0v0qDHkNVrfO-Yx8D0kXuMARk8w/edit#gid=0
