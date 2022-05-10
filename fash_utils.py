@@ -62,10 +62,10 @@ class SERVER:
         self.model = Sequential()
         self.model.add(keras.Input(shape=(784,)))
         self.model.add(layers.Dense(a, activation = 'relu', name = 'h1'))
-        self.model.add(layers.Dense(a, activation = 'relu', name = 'h2'))
+        #self.model.add(layers.Dense(a, activation = 'relu', name = 'h2'))
         self.model.add(layers.Dense(b, activation = 'relu', name = 'encoded'))
         self.model.add(layers.Dense(a, activation = 'relu', name = 'h3'))
-        self.model.add(layers.Dense(a, activation = 'relu', name = 'h4'))
+        #self.model.add(layers.Dense(a, activation = 'relu', name = 'h4'))
         self.model.add(layers.Dense(784, activation='sigmoid', name = 'out'))
         self.model.compile(optimizer = tensorflow.keras.optimizers.Adam(learning_rate = 0.001), loss = 'binary_crossentropy')
         return 
