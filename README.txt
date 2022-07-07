@@ -1,3 +1,8 @@
+If you came here for the latest updates navigate to "Inference" folder.
+
+
+
+Centralized:
 !NOTE - reconstructed images are titled as "6 Dense Layers", however, the model for this test had only 4 layers.
 
 Final loss
