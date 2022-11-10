@@ -1,3 +1,6 @@
+Codes that I wrote for fun! 
+Might be helpfull to familiarize yourself with autoencoder.
+
 If you came here for the latest updates navigate to "Inference" folder.
 
 
